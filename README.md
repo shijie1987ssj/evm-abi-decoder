@@ -62,3 +62,5 @@ Logging
 ------
 This project uses slf4j-api but doesn't package an implementation. This is up to the using application. For the
 tests logback is backing slf4j as implementation, with a default configuration logging to STOUT.
+
+[![](https://jitpack.io/v/shijie1987ssj/evm-abi-decoder.svg)](https://jitpack.io/#shijie1987ssj/evm-abi-decoder)
