@@ -2,7 +2,7 @@ EVM ABI Decoder
 ===============
 ![GitHub](https://img.shields.io/github/license/osslabz/evm-abi-decoder)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/osslabz/evm-abi-decoder/maven.yml?branch=main)
-[![Maven Central](https://img.shields.io/maven-central/v/net.osslabz/evm-abi-decoder?label=Maven%20Central)](https://search.maven.org/artifact/net.osslabz/evm-abi-decoder)
+[![](https://jitpack.io/v/shijie1987ssj/evm-abi-decoder.svg)](https://jitpack.io/#shijie1987ssj/evm-abi-decoder)
 
 EVM ABI Decoder allows to decode raw input data from a EVM transaction (on Ethereum or a compatible chain like Avalanche, BSC etc.)
 into a processable format obtained from the contract's ABi definition (JSON).
@@ -62,4 +62,3 @@ Logging
 ------
 This project uses slf4j-api but doesn't package an implementation. This is up to the using application. For the
 tests logback is backing slf4j as implementation, with a default configuration logging to STOUT.
-[![](https://jitpack.io/v/shijie1987ssj/evm-abi-decoder.svg)](https://jitpack.io/#shijie1987ssj/evm-abi-decoder)
